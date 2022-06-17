@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #e3dcdc;
+  padding: 0.3rem 1rem;
+  margin-bottom: 1rem;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .cal i {
+  color: #13AE47;
+  font-size: 1.7rem;
+}
+
+header .cal a {
+  font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 750px) {
+  header {
+    margin-bottom: 3rem;
+  }
+  header .logo {
+    width: 17%;
+  }
+  header .logo img {
+    width: 100%;
+  }
+}
+
+main #aptek, main #optik, main #leen, main #Multiway {
+  margin-bottom: 2rem;
+  background-color: #f5f9fabb;
+  padding: 1rem 0rem;
+}
+
+main #aptek .info-aptek, main #optik .info-aptek, main #leen .info-aptek, main #Multiway .info-aptek {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main #aptek .info-aptek p, main #optik .info-aptek p, main #leen .info-aptek p, main #Multiway .info-aptek p {
+  margin: 0px;
+}
+
+main #aptek .info-aptek .logo, main #optik .info-aptek .logo, main #leen .info-aptek .logo, main #Multiway .info-aptek .logo {
+  width: 10%;
+}
+
+main #aptek .info-aptek .logo img, main #optik .info-aptek .logo img, main #leen .info-aptek .logo img, main #Multiway .info-aptek .logo img {
+  width: 100%;
+}
+
+main #aptek .info-aptek .bussinesname span, main #optik .info-aptek .bussinesname span, main #leen .info-aptek .bussinesname span, main #Multiway .info-aptek .bussinesname span {
+  color: #13ae13;
+}
+
+main #aptek .info-aptek .title, main #optik .info-aptek .title, main #leen .info-aptek .title, main #Multiway .info-aptek .title {
+  font-weight: 500;
+}
+
+main #aptek .adress-contact, main #optik .adress-contact, main #leen .adress-contact, main #Multiway .adress-contact {
+  padding: 1rem 0;
+}
+
+main #aptek .adress-contact .adress, main #optik .adress-contact .adress, main #leen .adress-contact .adress, main #Multiway .adress-contact .adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #aptek .adress-contact .adress ul, main #optik .adress-contact .adress ul, main #leen .adress-contact .adress ul, main #Multiway .adress-contact .adress ul {
+  text-align: start;
+  padding: 0px;
+  list-style: none;
+  line-height: 2.3rem;
+}
+
+main #aptek .adress-contact .adress ul li, main #optik .adress-contact .adress ul li, main #leen .adress-contact .adress ul li, main #Multiway .adress-contact .adress ul li {
+  padding: 0px;
+  margin: 0px;
+}
+
+main #aptek .adress-contact .adress ul li a, main #optik .adress-contact .adress ul li a, main #leen .adress-contact .adress ul li a, main #Multiway .adress-contact .adress ul li a {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #aptek .adress-contact .adress ul li a .logoname, main #optik .adress-contact .adress ul li a .logoname, main #leen .adress-contact .adress ul li a .logoname, main #Multiway .adress-contact .adress ul li a .logoname {
+  color: #13ae13;
+}
+
+main #aptek .adress-contact .adress ul li a:hover, main #optik .adress-contact .adress ul li a:hover, main #leen .adress-contact .adress ul li a:hover, main #Multiway .adress-contact .adress ul li a:hover {
+  color: gray;
+}
+
+main #aptek .adress-contact .adress ul li a:hover .logoname, main #optik .adress-contact .adress ul li a:hover .logoname, main #leen .adress-contact .adress ul li a:hover .logoname, main #Multiway .adress-contact .adress ul li a:hover .logoname {
+  color: gray;
+}
+
+main #aptek .adress-contact .button, main #optik .adress-contact .button, main #leen .adress-contact .button, main #Multiway .adress-contact .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #aptek .adress-contact .button a, main #optik .adress-contact .button a, main #leen .adress-contact .button a, main #Multiway .adress-contact .button a {
+  padding: 4%;
+  display: inline-block;
+  text-align: center;
+  background-color: #21d821;
+  color: white;
+  border-radius: 10px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #aptek .adress-contact .button a:hover, main #optik .adress-contact .button a:hover, main #leen .adress-contact .button a:hover, main #Multiway .adress-contact .button a:hover {
+  background-color: rgba(33, 216, 33, 0.411);
+  color: black;
+}
+
+main #aptek .adress-contact .contact, main #optik .adress-contact .contact, main #leen .adress-contact .contact, main #Multiway .adress-contact .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #aptek .adress-contact .contact .icons, main #optik .adress-contact .contact .icons, main #leen .adress-contact .contact .icons, main #Multiway .adress-contact .contact .icons {
+  line-height: 2.3rem;
+}
+
+main #aptek .adress-contact .contact .icons i, main #optik .adress-contact .contact .icons i, main #leen .adress-contact .contact .icons i, main #Multiway .adress-contact .contact .icons i {
+  color: #13AE47;
+}
+
+main #leen .adress-contact .adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #leen .adress-contact .adress .title-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #leen .adress-contact .adress .title-name .logo {
+  width: 70%;
+  text-align: center;
+}
+
+main #leen .adress-contact .adress .title-name .logo img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+  #aptek .adress-contact .contact, #optik .adress-contact .contact, #leen .adress-contact .contact, #Multiway .adress-contact .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1.5rem;
+  }
+  #aptek .adress-contact .contact .icons, #optik .adress-contact .contact .icons, #leen .adress-contact .contact .icons, #Multiway .adress-contact .contact .icons {
+    text-align: center;
+  }
+  #aptek .adress-contact .contact .icons .icon, #optik .adress-contact .contact .icons .icon, #leen .adress-contact .contact .icons .icon, #Multiway .adress-contact .contact .icons .icon {
+    display: inline-block;
+    width: 45%;
+  }
+  #aptek .adress-contact .contact .icons i, #optik .adress-contact .contact .icons i, #leen .adress-contact .contact .icons i, #Multiway .adress-contact .contact .icons i {
+    color: #13AE47;
+  }
+}
+/*# sourceMappingURL=main.css.map */

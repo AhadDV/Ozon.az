@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid rgb(227, 220, 220);
+   padding: 0.3rem 1rem;
+           .logo{
+               width: 10%;
+               img{
+                   width: 100% ;
+               }
+           }
+           .cal{
+               i{
+                color: #13AE47;
+                font-size: 1.7rem;
+               }
+               a{
+                font-size: 1.7rem;
+               }
+           }
+         
+   
+    margin-bottom: 1rem;
+ 
+}
+
+@media only screen and (max-width: 750px) {
+    header{
+    
+
+            .logo{
+                width: 17%;
+                img{
+                    width: 100%;
+                }
+            }
+        margin-bottom: 3rem;
+    }
+  }
+
+main{
+ 
+    #aptek,#optik,#leen,#Multiway{
+        margin-bottom: 2rem;
+        background-color: #f5f9fabb;
+        padding: 1rem 0rem;;
+        .info-aptek{
+           text-align: center;
+           p{
+               margin: 0px;
+           }
+           .logo{
+               width: 10%;
+               img{
+                   width: 100%;
+               }
+           }
+           .bussinesname{
+               span{
+                color:rgb(19, 174, 19)
+               }
+           }
+           .title{
+               font-weight: 500;
+           }
+           margin-bottom: 2rem;
+           
+        }
+        .adress-contact{
+            padding: 1rem 0;
+            .adress{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                ul{
+                    text-align: start;
+                    padding: 0px;
+                    li{
+                        padding: 0px;
+                        margin: 0px;
+                        a{
+                          transition: .3s;
+                                .logoname{
+                                   color:rgb(19, 174, 19)
+                                }
+                            &:hover{
+                                color: gray;
+                                .logoname{
+                                    color: gray;
+                                }
+                            }
+                        }
+                    }
+                    list-style: none;
+                    line-height: 2.3rem;
+                }
+            }
+            .button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    padding: 4%;
+                   display:  inline-block;
+                    text-align: center;
+               
+                    background-color: rgb(33, 216, 33);
+                    color: white;
+                    border-radius: 10px;
+                    width: auto;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: .3s;
+                  &:hover{
+                    background-color: rgba(33, 216, 33, 0.411);
+                      color: black;
+                  }
+                }
+            }
+            .contact{
+                display: flex;
+                justify-content: center;
+                
+                .icons{
+                    
+                    line-height: 2.3rem;
+                    i{
+                        color: #13AE47
+                    }
+                }
+            }
+        }
+
+    }
+ #leen{
+     .adress-contact{
+         .adress{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .title-name{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                  .logo{
+                      width: 70%;
+                      text-align: center;
+                      img{
+                          width: 100%;
+                      }
+                  }
+              }
+         }
+     }
+ }
+}
+
+@media only screen and (max-width: 780px) {
+    #aptek,#optik,#leen,#Multiway{
+       
+        .adress-contact{
+        
+            .contact{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1.5rem;
+
+                .icons{
+                  text-align: center;
+                .icon{
+                    display: inline-block;
+                   width: 45%;
+                }
+                    i{
+                        color: #13AE47;
+                        
+                  
+                    }
+                   
+                    
+                }
+            }
+        }
+
+    }
+  }
